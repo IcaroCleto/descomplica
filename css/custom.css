@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* your styles go here */
 #lightbox{
    visibility:hidden;
@@ -25,4 +26,20 @@
 .form-control{
     background-color:darkgrey;
     
+=======
+/* your styles go here */
+.form-control{border:none;border-radius: 0;height: 41px;clear:none;}
+.form-inline .form-control{width: 300px;clear:none;}
+.ab-wrap{display: table;height: 100%;width: 100%;clear:none;}
+.ab-center{display: table-cell;vertical-align: middle;position: relative;text-align: center; clear:none;}
+.btn{border-radius: 0;border:none;padding:0.75em 2.5em;}
+.btn i{margin-right: 5px;}
+* {
+  overflow-x: hidden;
+  /*overflow-y: hidden;*/
+}
+
+.sem-scroll {
+    overflow-y: hidden;
+>>>>>>> f9d91c725b0d8094ba69f330c039ed722739e047
 }
