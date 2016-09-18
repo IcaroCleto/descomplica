@@ -1,0 +1,28 @@
+/* your styles go here */
+#lightbox{
+   visibility:hidden;
+   position:fixed;
+   color:white;
+   z-index:1000;
+   margin-top:-250px;
+   margin-left: -100px;
+
+
+   width: auto;
+   height:auto;
+}
+
+.sombra{
+   background: #000;
+   position: fixed;
+   opacity: .5;
+   top: 0;
+   z-index:5;
+}
+.preto{
+   color: black;
+}
+.form-control{
+    background-color:darkgrey;
+    
+}
