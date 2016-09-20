@@ -22,6 +22,20 @@
   <!-- Tweaks for older IEs--><!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   <!-- Facebook Pixel Code -->
+   <script>
+         !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+         n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+         n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+         document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '618201588272472');
+         fbq('track', "PageView");</script>
+          <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=618201588272472&ev=PageView&noscript=1"
+     /></noscript>
+        <!-- End Facebook Pixel Code -->
 </head>
 <body>
   <div class="modal-dialog text-center fundo">
@@ -29,10 +43,10 @@
       <div class="modal-content quadro-download">
         <div class="modal-header">
           <a href="index.html"><button type="button" class="close" data-dismiss="modal">&times;</button></a>
-          <h4 class="modal-title">Essa #vaganafacul é sua!</h4>
+          <h4 class="modal-title">Essa #vaganafacul Ã© sua!</h4>
         </div>
         <div class="modal-body">
-          <p>Você recebera um email com dicas matadoras ainda essa semana !</p>
+          <p>VocÃª recebera um email com dicas matadoras ainda essa semana !</p>
           <p>Obrigado por participar!</p>
           <a href="index.html"><button type="button" class="btn btn-success" data-dismiss="modal">Voltar</button></a>
 
