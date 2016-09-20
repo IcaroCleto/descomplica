@@ -2,6 +2,16 @@
     color: #32835c;
     box-sizing: border-box;
 }
+html{
+   height:100%;
+   width: 100%;
+
+}
+video {  
+   width:100%; 
+   max-width:600px; 
+   height:auto; 
+}
 .ajustemargin{
     margin-left: 14%;
 }
@@ -126,10 +136,11 @@ body{
     }
 }
 
-@media all and (min-device-height: 850px){
+@media (min-height: 850px) and (min-width: 1000px)  {
     footer{
-        position: fixed;
-    }
+        position:fixed;
+     }
+
 }
 footer{
 	background-color: #4db07d;
@@ -187,4 +198,4 @@ font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida San
     text-align: left;
     margin-top: 5%;
     font-size: 18px;
-}					
+}						
