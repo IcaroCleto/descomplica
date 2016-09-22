@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 $('html').mouseleave(function() {
 a();
 $( "html" ).unbind();
