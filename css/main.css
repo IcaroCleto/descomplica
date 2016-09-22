@@ -7,6 +7,7 @@ html{
    height:100%;
    width: 100%;
    overflow-x: hidden;
+    background-color: #f5f5f5;
 
 }
 .formcad{
@@ -207,6 +208,9 @@ footer{
 
 .title-form{
 	font-size: 18px;
+}
+.corbotao{
+    padding-top: 10px;
 }
 .posicao1 {
     padding-top: 0%;
