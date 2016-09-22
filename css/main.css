@@ -112,7 +112,7 @@ body{
         font-size: 18px;
     }
     .titulopagina{
-        font-size: 50px;
+        font-size: 45px;
     }
     .rodape{
         font-size: 50px;
@@ -185,7 +185,8 @@ body{
 
 @media all and (max-device-width: 1000px) {
     .topimage{
-        visibility: hidden;
+        visibility:hidden;
+        display: none;
      }
     
 
