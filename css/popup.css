@@ -13,6 +13,13 @@ position: absolute;
 .corbotao{
     padding-top: 10px;
 }
+
+.botao-fechar {
+ cursor: pointer;
+ position: absolute;
+ top: -20px;
+ right: -15px;
+}
 .form {
   position: relative;
   z-index: 1;

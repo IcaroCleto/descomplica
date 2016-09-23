@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
 * {
     color: #32835c;
     box-sizing: border-box;
@@ -53,7 +55,7 @@ iframe {
     display: inline-block;
 }
 h1,h2 {
-    font-family: 'Courgette', cursive;
+     font-family: 'Roboto', sans-serif;
     color: #32835c;
 }
 p,h3,h4 {
@@ -62,7 +64,7 @@ p,h3,h4 {
     color: #32835c;
 }
 @font-face {
-     font-family: 'Courgette', cursive;
+    font-family: 'Roboto', sans-serif;
      src: local(css/journal.ttf);
 }
 .titulo {
@@ -264,7 +266,7 @@ form{
     width: 100%;
 }
 .texto1 {
-  font-family: 'Courgette', cursive;
+  font-family: 'Roboto', sans-serif;
     text-align: justify;
     margin-left: 10%;
     font-size: 38px;
@@ -321,7 +323,7 @@ font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida San
     
 }
 .noticia{
-    padding: 5%;
+    padding: 3%;
 }
 .conteudonoticia{
     padding-left: 5%;
